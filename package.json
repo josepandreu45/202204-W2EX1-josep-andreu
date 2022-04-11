@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "run-sass": "sass sass:css",
     "prepare": "husky install"
   },
   "repository": {
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/josepandreu45/202204-W2EX1-josep-andreu#readme",
   "devDependencies": {
-    "husky": "^7.0.0"
+    "husky": "^7.0.0",
+    "sass": "^1.50.0"
   }
 }
